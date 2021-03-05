@@ -2,7 +2,7 @@
 This application provides users with a list of functions that they can execute which are: bmi, classification, &amp; retirement. bmi calculates a persons Body Mass Index and classification returns their level. Retirement calculates the age in which a goal will be met that pertains to annual salary and percentage saved over time.
 
 **Introduction:**
-This application was built with using Windows 10 machine and Python version 3.8.4 extension through Visual Studio Code. Python can be downloaded from its home site at https://www.python.org/downloads/ . To set up the application download the repo at … and run the program from the command line or through a coding editor using the command “python as2.py”.
+This application was built with using Windows 10 machine and Python version 3.8.4 extension through Visual Studio Code. Python can be downloaded from its home site at https://www.python.org/downloads/ . To set up the application download the repository at https://github.com/crankiestflame2/cse4283_terryuntae and run the program from the command line or through a coding editor using the command “python as2.py”.
 
 **BMI Function:**
 This function utilizes the information given by the user to calculate their Body Mass Index. It begins by multiplying the weight in pounds by 0.45 to convert it to kilograms. The next step takes the converted inches from the main function and multiplies it by 0.025 to obtain meters. It then squares the meters so that it can form the final operation which is to divide kg by m_sq (meters squared). Finally, it rounds the result to 1 decimal place and shows it to the user before sending it to the classification function to receive a level of underweight, normal, overweight, or obese.
